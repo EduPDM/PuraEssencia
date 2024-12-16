@@ -100,23 +100,24 @@
     ]
   },
   {
-    "identifier": "cartuchoew-9000",
-    "name": "Cartucho EW 16K",
-    "description": "O Cartucho EW 16K da Elfbar oferece até 16.000 tragos com sabor intenso e refrescante, ideal para quem busca praticidade e qualidade em cada puff. DE UM UPGRADE DE 9K PARA 16K.",
-    "price": 80,
-    "quantity": 0,
-    "image": "cartucho16k",
-    "flavors": [
-      ""
-    ]
-  },
-  {
     "identifier": "oxbar-magic-maze-2",
     "name": "Oxbar Magic Maze 30K",
     "description": "O Oxbar Magic Maze 30K é um pod poderoso, com até 30.000 tragadas, vapor denso, design exclusivo e bateria durável, oferecendo uma experiência única e sabores inusitados.",
     "price": 140,
     "quantity": 0,
     "image": "magicmaze",
+    "flavors": [
+      ""
+    ]
+  },
+
+  {
+    "identifier": "cartuchoew-9000",
+    "name": "Cartucho EW 16K",
+    "description": "O Cartucho EW 16K da Elfbar oferece até 16.000 tragos com sabor intenso e refrescante, ideal para quem busca praticidade e qualidade em cada puff. DE UM UPGRADE DE 9K PARA 16K.",
+    "price": 80,
+    "quantity": 0,
+    "image": "cartucho16k",
     "flavors": [
       ""
     ]
