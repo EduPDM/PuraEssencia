@@ -1,0 +1,100 @@
+[
+  {
+    "identifier": "pynepod-8000",
+    "name": "PynePod 8k",
+    "description": "O Pynepod 8K é um pod compacto e sofisticado com 8000 puffs de capacidade, bateria durável, vapor intenso e modo Boost para uma experiência mais potente.",
+    "price": 85,
+    "quantity": 1,
+    "image": "pyne8k",
+    "flavors": [
+      "Cool mint",
+      "Strawbarry banana",
+      "Watermelon ice"
+    ]
+  },
+  {
+    "identifier": "oxbar-9000",
+    "name": "Oxbar 9.5k",
+    "description": "O Oxbar 9.5K é um pod elegante, com até 9.500 tragadas, alto desempenho, durabilidade e modo Boost, ideal para vapor intenso e consistente.",
+    "price": 95,
+    "quantity": 1,
+    "image": "oxbar",
+    "flavors": [
+      "Cane mint",
+      "Tutti Fruit",
+      "Strawbarry banana",
+      "Fanta Grape",
+      "Ox love",
+      "Tropical love",
+      "Cool mint"
+    ]
+  },
+  {
+    "identifier": "elfbar-30000",
+    "name": "ElfBar 30K",
+    "description": "O Elfbar 30K é um pod inovador, com até 30.000 tragadas, vapor intenso, grande capacidade, bateria durável e design moderno para longa performance.",
+    "price": 160,
+    "quantity": 0,
+    "image": "elfbar40k",
+    "flavors": [
+      ""
+    ]
+  },
+  {
+    "identifier": "rabbeats-10000",
+    "name": "RabBeats 10k",
+    "description": "O Rabbeats 10K é um pod moderno com até 10.000 tragadas, vapor intenso, modo Boost, bateria durável, design compacto e desempenho confiável.",
+    "price": 85,
+    "quantity": 0,
+    "image": "rabbeats10k",
+    "flavors": [
+      ""
+    ]
+  },
+  {
+    "identifier": "elficeking-40000",
+    "name": "Elf Ice King 40K",
+    "description": "O Pod Elf Ice King 40k Elfbar oferece regulagem de sabor ice, modo boost e sabores variados para uma experiência personalizada e intensa de vaporização.",
+    "price": 180,
+    "quantity": 0,
+    "image": "elficeking",
+    "flavors": [
+      ""
+    ]
+  },
+  {
+    "identifier": "elfbarew-9000",
+    "name": "Elfbar EW 9K",
+    "description": "O Pod Elf Bar EW9000 é um dispositivo de vaporização com 9000 puffs, design compacto, recarga rápida e sabores intensos para uma experiência satisfatória.",
+    "price": 135,
+    "quantity": 0,
+    "image": "elfbarew9k",
+    "flavors": [
+      ""
+    ]
+  },
+  {
+    "identifier": "cartuchoew-9000",
+    "name": "Cartucho EW 16K",
+    "description": "O Cartucho EW 16K da Elfbar oferece até 16.000 tragos com sabor intenso e refrescante, ideal para quem busca praticidade e qualidade em cada puff. DE UM UPGRADE DE 9K PARA 16K.",
+    "price": 80,
+    "quantity": 0,
+    "image": "cartucho16k",
+    "flavors": [
+      ""
+    ]
+  },
+  {
+    "identifier": "oxbar-magic-maze-2",
+    "name": "Oxbar Magic Maze 30K",
+    "description": "O Oxbar Magic Maze 30K é um pod poderoso, com até 30.000 tragadas, vapor denso, design exclusivo e bateria durável, oferecendo uma experiência única e sabores inusitados.",
+    "price": 140,
+    "quantity": 0,
+    "image": "magicmaze",
+    "flavors": [
+      ""
+    ]
+  }
+
+
+]
