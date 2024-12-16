@@ -1,8 +1,8 @@
 'use client';
-import { Phone, ChevronDown, ChevronUp } from 'lucide-react';
+import { Phone, ChevronDown, ChevronUp, Menu, X } from 'lucide-react';
 import Image from 'next/image';
 import Link from 'next/link';
-import { useState, useEffect, useRef } from 'react';
+import { useState } from 'react';
 
 const menus = [
   {
@@ -24,136 +24,97 @@ const menus = [
     name: 'oxbar',
     label: 'Oxbar',
     items: [
-      { href: 'oxbar-9000', label: 'Oxbar G9500' },
+      { href: 'oxbar-64000', label: 'NOVO Oxbar 64K' },
+      { href: 'oxbar-magic-maze-2', label: 'Oxbar MagicMaze 30k' },
       { href: 'oxbar-g-10000', label: 'Oxbar G10000' },
-      { href: 'oxbar-magic-maze-2', label: 'Oxbar MagicMaze 2' },
+      { href: 'oxbar-9000', label: 'Oxbar G9500' }
+      
     ],
   },
+  {
+    name: 'pynepod',
+    label: 'Pyne Pod',
+    items: [
+      { href: 'pynepod-8000', label: 'Pyne Pod 8K' }
+    ],
+  },
+ 
 ];
-
-
 
 export default function NavBar() {
   const [openMenu, setOpenMenu] = useState<string | null>(null);
-  const [clickedMenu, setClickedMenu] = useState<string | null>(null);
-  const closingTimeout = useRef<NodeJS.Timeout | null>(null);
-  const menuRefs = useRef<{ [key: string]: HTMLLIElement | null }>({});
+  const [showSideMenu, setShowSideMenu] = useState(false);
 
-  const handleClickOutside = (event: MouseEvent) => {
-    if (
-      Object.values(menuRefs.current).every(
-        (ref) => ref && !ref.contains(event.target as Node)
-      )
-    ) {
-      setOpenMenu(null);
-      setClickedMenu(null);
-    }
+  const toggleSideMenu = () => {
+    setShowSideMenu(!showSideMenu);
   };
 
-  useEffect(() => {
-    document.addEventListener('mousedown', handleClickOutside);
-    return () => {
-      document.removeEventListener('mousedown', handleClickOutside);
-    };
-  }, []);
-
-  const handleMouseEnter = (menu: string) => {
-    if (closingTimeout.current) {
-      clearTimeout(closingTimeout.current);
-    }
-    if (!clickedMenu) {
-      setOpenMenu(menu);
-    }
-  };
-
-  const handleMouseLeave = (menu: string) => {
-    if (openMenu === menu && !clickedMenu) {
-      closingTimeout.current = setTimeout(() => {
-        setOpenMenu(null);
-      }, 200);
-    }
-  };
-
-  const handleClick = (menu: string) => {
-    if (clickedMenu === menu) {
-      setClickedMenu(null);
-      setOpenMenu(null);
-    } else {
-      setClickedMenu(menu);
-      setOpenMenu(menu);
-    }
+  const handleMenuClick = (menu: string) => {
+    setOpenMenu(openMenu === menu ? null : menu);
   };
 
   return (
-    <nav className=' bg-zinc-950 w-screen h-auto z-40 bg-clip-padding  '>
-      <div className='py-3 flex bg-primary text-2xl text-white border-b-2 border-gray-300/10 justify-evenly gap-8'>
-        <div className='flex items-center text-center'>
-        <p>PURA ESSENCIA</p>
-        <Image
-          src={"/hero-image.png"}
-          width={75} 
-          height={25} 
-          alt=""
-          className="relative mx-auto my-0" 
-        />
-        </div>
-        
+    <nav className='bg-zinc-950 w-screen h-auto z-40'>
+      <div className='flex bg-primary text-2xl text-white border-b-2 border-gray-300/10 justify-between items-center p-4'>
+        <button className='block text-white' onClick={toggleSideMenu}>
+          {showSideMenu ? <X size={32} /> : <Menu size={32} />}
+        </button>
+        <Image src='/logohero.jpg' width={105} height={35} alt='Logo' className='my-0 mx-auto' />
       </div>
 
-      <div className='w-full bg-secondary text-white md:hidden block py-2'>
-        <div className='flex items-center text-center justify-center'>
-          <Link href='/'>Voltar ao inicio</Link>
-        </div>
-      </div>
-
-      <div className='w-full bg-secondary text-white md:block hidden py-2'>
-        <ul className='flex justify-around items-center mx-5'>
-          <li>
-            <a href='/'>Voltar ao inicio</a>
-          </li>
-
-          {menus.map((menu) => (
-            <li
-            key={menu.name}
-            className="relative"
-            ref={(el) => {
-              menuRefs.current[menu.name] = el; 
-            }}
-            onMouseEnter={() => handleMouseEnter(menu.name)}
-            onMouseLeave={() => handleMouseLeave(menu.name)}
-            onClick={() => handleClick(menu.name)}
-          >
-              <span className='ml-2 flex'>
-                {menu.label}
-                {openMenu === menu.name ? <ChevronUp size={20} /> : <ChevronDown size={20} />}
-              </span>
-              {openMenu === menu.name && (
-                <ul className='absolute bg-zinc-200 shadow-md mt-4 p-3 space-y-2 transition-all duration-300 ease-in-out w-64 border rounded-md bg-clip-padding backdrop-filter backdrop-blur-lg bg-opacity-40 border-gray-300/10'>
-                  {menu.items.map((item) => (
-                    <li key={item.href} className='hover:bg-zinc-500 p-2'>
-                      <a href={item.href}>{item.label}</a>
-                    </li>
-                  ))}
-                </ul>
-              )}
+      {showSideMenu && (
+        <div className='fixed top-0 left-0 h-full w-64 bg-zinc-900 text-white shadow-lg p-6 transition-all duration-300 transform'>
+          <ul className='space-y-4'>
+            <li>
+              <Link href='/' className='block text-white hover:bg-gray-700 p-2 rounded-md transition-colors'>
+                Voltar ao início
+              </Link>
             </li>
-          ))}
-
-          <li>
-            <a
-              href='https://wa.me/5519994719189?text=Gostaria%20de%20fazer%20um%20pedido'
-              target='_blank'
-              rel='noopener noreferrer'
-              className='text-white hover:bg-[#07c98b] rounded-lg p-2 flex bg-green-500 transition-colors'
-            >
-              Whatsapp
-              <span className='ml-2'>
-                <Phone size={24} />
-              </span>
-            </a>
-          </li>
-        </ul>
-      </div>
+            {menus.map((menu) => (
+              <li key={menu.name} className='relative'>
+                <button
+                  className='flex items-center cursor-pointer w-full text-left text-lg font-semibold py-2 px-4 rounded-md hover:bg-zinc-700 focus:outline-none transition-colors'
+                  onClick={() => handleMenuClick(menu.name)}
+                >
+                  {menu.label}
+                  {openMenu === menu.name ? <ChevronUp size={20} /> : <ChevronDown size={20} />}
+                </button>
+                {openMenu === menu.name && (
+                  <ul className='bg-zinc-800 mt-2 p-3 space-y-2 rounded-md'>
+                    {menu.items.map((item) => (
+                      <li key={item.href}>
+                        <Link
+                          href={item.href}
+                          className='block text-sm text-white hover:bg-zinc-600 py-2 px-4 rounded-md transition-colors'
+                        >
+                          {item.label}
+                        </Link>
+                      </li>
+                    ))}
+                  </ul>
+                )}
+              </li>
+            ))}
+            <li>
+              <a
+                href='https://wa.me/5519994719189?text=Gostaria%20de%20fazer%20um%20pedido'
+                target='_blank'
+                rel='noopener noreferrer'
+                className='flex items-center text-white hover:bg-green-500 rounded-lg p-3 transition-all'
+              >
+                Whatsapp
+                <Phone size={24} className='ml-2' />
+              </a>
+            </li>
+          </ul>
+          <button
+            className='absolute bottom-4 right-4 text-white hover:bg-zinc-600 rounded-full p-2'
+            onClick={toggleSideMenu}
+          >
+            <X size={50} />
+          </button>
+        </div> 
+      )}
     </nav>
   );
 }

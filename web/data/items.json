@@ -1,9 +1,31 @@
 [
   {
+    "identifier": "oxbar-64000",
+    "name": "NOVO Oxbar 64K",
+    "description": "Modelo NOVO com uma Qualidade e quantidade Absurda de puffs sabor Surreal tendo modos de intensidade troca de cartuchos e bateria com ótima durabilidade no padrão Oxbar!  ",
+    "price": 190,
+    "quantity": 0,
+    "image": "oxbar-64000",
+    "flavors": [
+
+    ]
+  },
+  {
+    "identifier": "ignite-25000",
+    "name": "Ignite V250",
+    "description": "Novidade pra vocês Ignite V250 modo Bost e Painel LED com variedade de cores, vapor intenso, grande capacidade de puffs, bateria durável e design moderno para longa performance.",
+    "price": 160,
+    "quantity": 0,
+    "image": "ignite-25000",
+    "flavors": [
+      ""
+    ]
+  },
+  {
     "identifier": "pynepod-8000",
     "name": "PynePod 8k",
     "description": "O Pynepod 8K é um pod compacto e sofisticado com 8000 puffs de capacidade, bateria durável, vapor intenso e modo Boost para uma experiência mais potente.",
-    "price": 85,
+    "price": 80,
     "quantity": 1,
     "image": "pyne8k",
     "flavors": [
@@ -16,7 +38,7 @@
     "identifier": "oxbar-9000",
     "name": "Oxbar 9.5k",
     "description": "O Oxbar 9.5K é um pod elegante, com até 9.500 tragadas, alto desempenho, durabilidade e modo Boost, ideal para vapor intenso e consistente.",
-    "price": 95,
+    "price": 85,
     "quantity": 1,
     "image": "oxbar",
     "flavors": [
@@ -27,6 +49,18 @@
       "Ox love",
       "Tropical love",
       "Cool mint"
+    ]
+  },
+
+  {
+    "identifier": "elficeking-40000",
+    "name": "Elf Ice King 40K",
+    "description": "O Pod Elf Ice King 40k Elfbar oferece regulagem de sabor ice, modo boost e sabores variados para uma experiência personalizada e intensa de vaporização.",
+    "price": 180,
+    "quantity": 0,
+    "image": "elficeking",
+    "flavors": [
+      ""
     ]
   },
   {
@@ -40,6 +74,8 @@
       ""
     ]
   },
+  
+
   {
     "identifier": "rabbeats-10000",
     "name": "RabBeats 10k",
@@ -51,17 +87,7 @@
       ""
     ]
   },
-  {
-    "identifier": "elficeking-40000",
-    "name": "Elf Ice King 40K",
-    "description": "O Pod Elf Ice King 40k Elfbar oferece regulagem de sabor ice, modo boost e sabores variados para uma experiência personalizada e intensa de vaporização.",
-    "price": 180,
-    "quantity": 0,
-    "image": "elficeking",
-    "flavors": [
-      ""
-    ]
-  },
+
   {
     "identifier": "elfbarew-9000",
     "name": "Elfbar EW 9K",
