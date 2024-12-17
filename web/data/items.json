@@ -22,19 +22,6 @@
     ]
   },
   {
-    "identifier": "pynepod-8000",
-    "name": "PynePod 8k",
-    "description": "O Pynepod 8K é um pod compacto e sofisticado com 8000 puffs de capacidade, bateria durável, vapor intenso e modo Boost para uma experiência mais potente.",
-    "price": 80,
-    "quantity": 1,
-    "image": "pyne8k",
-    "flavors": [
-      "Cool mint",
-      "Strawbarry banana",
-      "Watermelon ice"
-    ]
-  },
-  {
     "identifier": "oxbar-9000",
     "name": "Oxbar 9.5k",
     "description": "O Oxbar 9.5K é um pod elegante, com até 9.500 tragadas, alto desempenho, durabilidade e modo Boost, ideal para vapor intenso e consistente.",
@@ -49,6 +36,31 @@
       "Ox love",
       "Tropical love",
       "Cool mint"
+    ]
+  },
+  {
+    "identifier": "pynepod-8000",
+    "name": "PynePod 8k",
+    "description": "O Pynepod 8K é um pod compacto e sofisticado com 8000 puffs de capacidade, bateria durável, vapor intenso e modo Boost para uma experiência mais potente.",
+    "price": 80,
+    "quantity": 1,
+    "image": "pyne8k",
+    "flavors": [
+      "Cool mint",
+      "Strawbarry banana",
+      "Watermelon ice"
+    ]
+  },
+
+  {
+    "identifier": "ignite-15000",
+    "name": "Ignite V150",
+    "description": "O Ignite V150 é compacto e potente, oferecendo até 15.000 puffs para uma experiência de vaporização excepcional, ele é perfeito para quem busca sabor e qualidade. ",
+    "price": 100,
+    "quantity": 0,
+    "image": "ignite-15000",
+    "flavors": [
+      ""
     ]
   },
 
@@ -110,7 +122,6 @@
       ""
     ]
   },
-
   {
     "identifier": "cartuchoew-9000",
     "name": "Cartucho EW 16K",

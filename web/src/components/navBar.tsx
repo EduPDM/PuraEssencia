@@ -9,15 +9,17 @@ const menus = [
     name: 'ignite',
     label: 'Ignite',
     items: [
-      { href: '', label: 'Ignite V250' },
-      { href: '', label: 'Ignite V150' },
+      { href: 'ignite-25000', label: 'Ignite V250' },
+      { href: 'ignite-15000', label: 'Ignite V150' },
     ],
   },
   {
     name: 'elfbar',
     label: 'Elfbar',
     items: [
-      { href: 'elfbar-30000', label: 'Elfbar 30K' },
+      { href: 'elficeking-40000', label: 'Elfbar Ice King 40K' },
+      { href: 'elfbar-30000', label: 'Elfbar 30K' }
+     
     ],
   },
   {
