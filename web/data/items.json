@@ -51,18 +51,21 @@
       "Sakura Grape"
     ]
   },
-
   {
-    "identifier": "ignite-15000",
-    "name": "Ignite V150",
-    "description": "O Ignite V150 é compacto e potente, oferecendo até 15.000 puffs para uma experiência de vaporização excepcional, ele é perfeito para quem busca sabor e qualidade. ",
-    "price": 100,
-    "quantity": 0,
-    "image": "ignite-15000",
+    "identifier": "rabbeats-10000",
+    "name": "RabBeats 10k",
+    "description": "O Rabbeats 10K é um pod moderno com até 10.000 tragadas, vapor intenso, modo Boost, bateria durável, design compacto e desempenho confiável.",
+    "price": 85,
+    "quantity": 1,
+    "image": "rabbeats10k",
     "flavors": [
-      ""
+      "Grape Cherry",
+      "Honeyloupe Mango",
+      "Ki-Melon Apple",
+      "Miami Mint"
     ]
   },
+
 
   {
     "identifier": "oxbar-magic-maze-2",
@@ -91,22 +94,20 @@
       "Miami Mint"
     ]
   },
-  
 
   {
-    "identifier": "rabbeats-10000",
-    "name": "RabBeats 10k",
-    "description": "O Rabbeats 10K é um pod moderno com até 10.000 tragadas, vapor intenso, modo Boost, bateria durável, design compacto e desempenho confiável.",
-    "price": 85,
-    "quantity": 1,
-    "image": "rabbeats10k",
+    "identifier": "ignite-15000",
+    "name": "Ignite V150",
+    "description": "O Ignite V150 é compacto e potente, oferecendo até 15.000 puffs para uma experiência de vaporização excepcional, ele é perfeito para quem busca sabor e qualidade. ",
+    "price": 100,
+    "quantity": 0,
+    "image": "ignite-15000",
     "flavors": [
-      "Grape Cherry",
-      "Honeyloupe Mango",
-      "Ki-Melon Apple",
-      "Miami Mint"
+      ""
     ]
   },
+
+
 
   {
     "identifier": "elfbarew-9000",
