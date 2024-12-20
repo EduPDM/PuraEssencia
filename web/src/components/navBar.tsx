@@ -26,7 +26,7 @@ const menus = [
     name: 'oxbar',
     label: 'Oxbar',
     items: [
-      { href: 'oxbar-64000', label: 'NOVO Oxbar 64K' },
+      { href: 'oxbar-64000', label: '(New) Oxbar 32K/64k' },
       { href: 'oxbar-magic-maze-2', label: 'Oxbar MagicMaze 30k' },
       { href: 'oxbar-g-10000', label: 'Oxbar G10000' },
       { href: 'oxbar-9000', label: 'Oxbar G9500' }
@@ -34,12 +34,20 @@ const menus = [
     ],
   },
   {
+    name: 'rabbeats',
+    label: 'RabBeats',
+    items: [
+      { href: 'rabbeats-10000', label: 'RabBeats 10K' }
+    ],
+  },
+ 
+  {
     name: 'pynepod',
     label: 'Pyne Pod',
     items: [
       { href: 'pynepod-8000', label: 'Pyne Pod 8K' }
     ],
-  },
+  }
  
 ];
 

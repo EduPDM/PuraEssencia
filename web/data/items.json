@@ -1,24 +1,25 @@
 [
   {
     "identifier": "oxbar-64000",
-    "name": "NOVO Oxbar 64K",
+    "name": "NOVO Oxbar 32K/64k",
     "description": "Modelo NOVO com uma Qualidade e quantidade Absurda de puffs sabor Surreal tendo modos de intensidade troca de cartuchos e bateria com ótima durabilidade no padrão Oxbar!  ",
     "price": 190,
-    "quantity": 0,
+    "quantity": 1,
     "image": "oxbar-64000",
     "flavors": [
-
+      "Watermelon Halls"
     ]
   },
   {
     "identifier": "ignite-25000",
     "name": "Ignite V250",
-    "description": "Novidade pra vocês Ignite V250 modo Bost e Painel LED com variedade de cores, vapor intenso, grande capacidade de puffs, bateria durável e design moderno para longa performance.",
-    "price": 160,
-    "quantity": 0,
+    "description": "Novidade pra vocês Ignite V250 modo Bost e Painel LED com variedade de cores, vapor intenso, grande capacidade de puffs, bateria durável e um design moderno para longa performance.",
+    "price": 195,
+    "quantity": 1,
     "image": "ignite-25000",
     "flavors": [
-      ""
+      "Cactus Lime Soda",
+      "Blueberry Strawberry Coconut"
     ]
   },
   {
@@ -30,11 +31,9 @@
     "image": "oxbar",
     "flavors": [
       "Cane mint",
-      "Tutti Fruit",
-      "Strawbarry banana",
+      "banana ice",
       "Fanta Grape",
       "Ox love",
-      "Tropical love",
       "Cool mint"
     ]
   },
@@ -48,7 +47,8 @@
     "flavors": [
       "Cool mint",
       "Strawbarry banana",
-      "Watermelon ice"
+      "Watermelon ice",
+      "Sakura Grape"
     ]
   },
 
@@ -65,25 +65,30 @@
   },
 
   {
-    "identifier": "elficeking-40000",
-    "name": "Elf Ice King 40K",
-    "description": "O Pod Elf Ice King 40k Elfbar oferece regulagem de sabor ice, modo boost e sabores variados para uma experiência personalizada e intensa de vaporização.",
-    "price": 180,
-    "quantity": 0,
-    "image": "elficeking",
+    "identifier": "oxbar-magic-maze-2",
+    "name": "Oxbar Magic Maze 30K",
+    "description": "O Oxbar Magic Maze 30K é um pod poderoso, com até 30.000 tragadas, vapor denso, design exclusivo e bateria durável, oferecendo uma experiência única e sabores inusitados.",
+    "price": 145,
+    "quantity": 1,
+    "image": "magicmaze",
     "flavors": [
-      ""
+      "Mr Bull (Red Bull)",
+      "Watermelon Mint",
+      "Strawberry Watermelon Dragon Fruit"
     ]
   },
+
+ 
   {
     "identifier": "elfbar-30000",
     "name": "ElfBar 30K",
     "description": "O Elfbar 30K é um pod inovador, com até 30.000 tragadas, vapor intenso, grande capacidade, bateria durável e design moderno para longa performance.",
-    "price": 160,
-    "quantity": 0,
+    "price": 155,
+    "quantity": 1,
     "image": "elfbar40k",
     "flavors": [
-      ""
+      "Bubbaloo Tutti Fruit",
+      "Miami Mint"
     ]
   },
   
@@ -93,10 +98,13 @@
     "name": "RabBeats 10k",
     "description": "O Rabbeats 10K é um pod moderno com até 10.000 tragadas, vapor intenso, modo Boost, bateria durável, design compacto e desempenho confiável.",
     "price": 85,
-    "quantity": 0,
+    "quantity": 1,
     "image": "rabbeats10k",
     "flavors": [
-      ""
+      "Grape Cherry",
+      "Honeyloupe Mango",
+      "Ki-Melon Apple",
+      "Miami Mint"
     ]
   },
 
@@ -111,17 +119,19 @@
       ""
     ]
   },
+
   {
-    "identifier": "oxbar-magic-maze-2",
-    "name": "Oxbar Magic Maze 30K",
-    "description": "O Oxbar Magic Maze 30K é um pod poderoso, com até 30.000 tragadas, vapor denso, design exclusivo e bateria durável, oferecendo uma experiência única e sabores inusitados.",
-    "price": 140,
+    "identifier": "elficeking-40000",
+    "name": "Elf Ice King 40K",
+    "description": "O Pod Elf Ice King 40k Elfbar oferece regulagem de sabor ice, modo boost e sabores variados para uma experiência personalizada e intensa de vaporização.",
+    "price": 180,
     "quantity": 0,
-    "image": "magicmaze",
+    "image": "elficeking",
     "flavors": [
       ""
     ]
   },
+  
   {
     "identifier": "cartuchoew-9000",
     "name": "Cartucho EW 16K",
