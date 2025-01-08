@@ -3,7 +3,7 @@
     "identifier": "oxbar-64000",
     "name": "NOVO Oxbar 32K/64k",
     "description": "Modelo NOVO com uma Qualidade e quantidade Absurda de puffs sabor Surreal tendo modos de intensidade troca de cartuchos e bateria com ótima durabilidade no padrão Oxbar!  ",
-    "price": 190,
+    "price": 185,
     "quantity": 1,
     "image": "oxbar-64000",
     "flavors": [
@@ -14,7 +14,7 @@
     "identifier": "ignite-25000",
     "name": "Ignite V250",
     "description": "Novidade pra vocês Ignite V250 modo Bost e Painel LED com variedade de cores, vapor intenso, grande capacidade de puffs, bateria durável e um design moderno para longa performance.",
-    "price": 195,
+    "price": 175,
     "quantity": 1,
     "image": "ignite-25000",
     "flavors": [
@@ -26,7 +26,7 @@
     "identifier": "oxbar-9000",
     "name": "Oxbar 9.5k",
     "description": "O Oxbar 9.5K é um pod elegante, com até 9.500 tragadas, alto desempenho, durabilidade e modo Boost, ideal para vapor intenso e consistente.",
-    "price": 95,
+    "price": 85,
     "quantity": 1,
     "image": "oxbar",
     "flavors": [
@@ -42,13 +42,10 @@
     "name": "PynePod 8k",
     "description": "O Pynepod 8K é um pod compacto e sofisticado com 8000 puffs de capacidade, bateria durável, vapor intenso e modo Boost para uma experiência mais potente.",
     "price": 65,
-    "quantity": 1,
+    "quantity": 0,
     "image": "pyne8k",
     "flavors": [
-      "Cool mint",
-      "Strawbarry banana",
-      "Watermelon ice",
-      "Sakura Grape"
+      "Cool mint"
     ]
   },
   {
@@ -56,13 +53,12 @@
     "name": "RabBeats 10k",
     "description": "O Rabbeats 10K é um pod moderno com até 10.000 tragadas, vapor intenso, modo Boost, bateria durável, design compacto e desempenho confiável.",
     "price": 85,
-    "quantity": 1,
+    "quantity": 0,
     "image": "rabbeats10k",
     "flavors": [
       "Grape Cherry",
       "Honeyloupe Mango",
-      "Ki-Melon Apple",
-      "Miami Mint"
+      "Ki-Melon Apple"
     ]
   },
 
@@ -71,11 +67,10 @@
     "identifier": "oxbar-magic-maze-2",
     "name": "Oxbar Magic Maze 30K",
     "description": "O Oxbar Magic Maze 30K é um pod poderoso, com até 30.000 tragadas, vapor denso, design exclusivo e bateria durável, oferecendo uma experiência única e sabores inusitados.",
-    "price": 145,
+    "price": 135,
     "quantity": 1,
     "image": "magicmaze",
     "flavors": [
-      "Mr Bull (Red Bull)",
       "Watermelon Mint",
       "Strawberry Watermelon Dragon Fruit"
     ]
@@ -87,7 +82,7 @@
     "name": "ElfBar 30K",
     "description": "O Elfbar 30K é um pod inovador, com até 30.000 tragadas, vapor intenso, grande capacidade, bateria durável e design moderno para longa performance.",
     "price": 155,
-    "quantity": 1,
+    "quantity": 0,
     "image": "elfbar40k",
     "flavors": [
       "Bubbaloo Tutti Fruit",
