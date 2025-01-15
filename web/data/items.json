@@ -1,7 +1,7 @@
 [
   
   {
-    "identifier": "Lost Mary 30K",
+    "identifier": "lost-mary-30000",
     "name": "Novo Lost Mary 30K",
     "description": "Uma novidade pra vcs de limeira, o Lost Mary 30K MIXER tem uma funcionalidade incrivel que possibilita você AJUSTAR qual SABOR MAIS sentir, para uma experiência inesquecível!",
     "price": 170,
@@ -55,7 +55,7 @@
   {
     "identifier": "elfbarew-9000",
     "name": "Elfbar EW 9K",
-    "description": "O Pod Elf Bar EW9000 tem O MELHOR SABOR DA MARCA! um dispositivo de vaporização com 9000 puffs, design compacto, Bateria com atra e sabores intensos para uma experiência satisfatória.",
+    "description": "O Pod Elf Bar EW9000 tem O MELHOR SABOR DA MARCA! um dispositivo de vaporização com 9000 puffs, design compacto, Bateria com Imã e sabores intensos para uma experiência satisfatória.",
     "price": 135,
     "quantity": 1,
     "image": "elfbarew9k",
@@ -76,6 +76,23 @@
       "Dragon Melon ICE",
       "Baja Splash",
       "Watermelon ICE"
+    ]
+  },
+
+  {
+    "identifier": "ignite-v50",
+    "name": "Ignite V50",
+    "description": "O queridinho das baladas com a melhor qualidade de sabores no mercado! O V50 mudou seu vizual para os tons escuros porém com a mesma exelência no desempenho e qualidade da marca.",
+    "price": 85,
+    "quantity": 1,
+    "image": "ignitev50",
+    "flavors": [
+      "Ice Mint",
+      "Mixed Berries",
+      "Menthol",
+      "Strawberry Watermelon",
+      "Peach Mango Watermelon",
+      "Watermelon Mix"
     ]
   },
 
