@@ -1,4 +1,33 @@
 [
+  
+  {
+    "identifier": "Lost Mary 30K",
+    "name": "Novo Lost Mary 30K",
+    "description": "Uma novidade pra vcs de limeira, o Lost Mary 30K MIXER tem uma funcionalidade incrivel que possibilita você AJUSTAR qual SABOR MAIS sentir, para uma experiência inesquecível!",
+    "price": 170,
+    "quantity": 1,
+    "image": "Item Lost Mary 30K",
+    "flavors": [
+      "Apple Grape",
+      "Mix MINT"
+    ]
+  },
+
+  {
+    "identifier": "ignite-15000",
+    "name": "Ignite V150",
+    "description": "O Ignite V150 é compacto e potente, oferecendo até 15.000 puffs para uma experiência de vaporização excepcional, ele é perfeito para quem busca sabor e qualidade. ",
+    "price": 136,
+    "quantity": 1,
+    "image": "ignite-15000",
+    "flavors": [
+      "Cherry Watermelon ICE",
+      "Menthol",
+      "Strawberry Kiwi",
+      "Strawberry ICE"
+    ]
+  },
+  
   {
     "identifier": "oxbar-64000",
     "name": "NOVO Oxbar 32K/64k",
@@ -22,13 +51,41 @@
       "Blueberry Strawberry Coconut"
     ]
   },
+
+  {
+    "identifier": "elfbarew-9000",
+    "name": "Elfbar EW 9K",
+    "description": "O Pod Elf Bar EW9000 tem O MELHOR SABOR DA MARCA! um dispositivo de vaporização com 9000 puffs, design compacto, Bateria com atra e sabores intensos para uma experiência satisfatória.",
+    "price": 135,
+    "quantity": 1,
+    "image": "elfbarew9k",
+    "flavors": [
+      "Cherry Strazz",
+      "Dragon Strawnana"
+    ]
+  },
+
+  {
+    "identifier": "cartuchoew-16000",
+    "name": "Cartucho EW 16K",
+    "description": "O Cartucho EW 16K da Elfbar oferece até 16.000 tragos com sabor intenso e refrescante, ideal para quem busca praticidade e qualidade em cada puff. DE UM UPGRADE DE 9K PARA 16K.",
+    "price": 140,
+    "quantity": 1,
+    "image": "cartucho16k",
+    "flavors": [
+      "Dragon Melon ICE",
+      "Baja Splash",
+      "Watermelon ICE"
+    ]
+  },
+
   {
     "identifier": "oxbar-9000",
     "name": "Oxbar 9.5k",
     "description": "O Oxbar 9.5K é um pod elegante, com até 9.500 tragadas, alto desempenho, durabilidade e modo Boost, ideal para vapor intenso e consistente.",
     "price": 85,
     "quantity": 1,
-    "image": "oxbar",
+    "image": "oxbar9k",
     "flavors": [
       "Cane mint",
       "banana ice",
@@ -37,6 +94,24 @@
       "Cool mint"
     ]
   },
+
+  {
+    "identifier": "rabbeats-10000",
+    "name": "RabBeats 10k",
+    "description": "O Rabbeats 10K é um pod moderno com até 10.000 tragadas, vapor intenso, Sabores Diferenciados, bateria durável, design compacto e desempenho confiável.",
+    "price": 85,
+    "quantity": 1,
+    "image": "rabbeats10k",
+    "flavors": [
+      "Yummy Strazz",
+      "Fuji ice",
+      "Cherry Lemon",
+      "Miami Mint",
+      "Blackberry Cranbrerry",
+      "Blueberry Cloudz"
+    ]
+  },
+
   {
     "identifier": "pynepod-8000",
     "name": "PynePod 8k",
@@ -48,17 +123,20 @@
       "Cool mint"
     ]
   },
+
+
   {
-    "identifier": "rabbeats-10000",
-    "name": "RabBeats 10k",
-    "description": "O Rabbeats 10K é um pod moderno com até 10.000 tragadas, vapor intenso, modo Boost, bateria durável, design compacto e desempenho confiável.",
-    "price": 85,
-    "quantity": 0,
-    "image": "rabbeats10k",
+    "identifier": "elfbar-gh23000",
+    "name": "Elfbar GH 23K",
+    "description": "Gordinho favorito de vocês, o GH 23.000 possue um design incrivel com multifuncionalidades e sabores surreais para uma experiência incrível e duradoura.",
+    "price": 180,
+    "quantity": 1,
+    "image": "GH23K",
     "flavors": [
-      "Grape Cherry",
-      "Honeyloupe Mango",
-      "Ki-Melon Apple"
+      "Spring mint",
+      "Green apple ICE",
+      "Lime grape fruit ICE",
+      "Peach mango watermelon"
     ]
   },
 
@@ -68,7 +146,7 @@
     "name": "Oxbar Magic Maze 30K",
     "description": "O Oxbar Magic Maze 30K é um pod poderoso, com até 30.000 tragadas, vapor denso, design exclusivo e bateria durável, oferecendo uma experiência única e sabores inusitados.",
     "price": 135,
-    "quantity": 1,
+    "quantity": 0,
     "image": "magicmaze",
     "flavors": [
       "Watermelon Mint",
@@ -90,31 +168,7 @@
     ]
   },
 
-  {
-    "identifier": "ignite-15000",
-    "name": "Ignite V150",
-    "description": "O Ignite V150 é compacto e potente, oferecendo até 15.000 puffs para uma experiência de vaporização excepcional, ele é perfeito para quem busca sabor e qualidade. ",
-    "price": 100,
-    "quantity": 0,
-    "image": "ignite-15000",
-    "flavors": [
-      ""
-    ]
-  },
 
-
-
-  {
-    "identifier": "elfbarew-9000",
-    "name": "Elfbar EW 9K",
-    "description": "O Pod Elf Bar EW9000 é um dispositivo de vaporização com 9000 puffs, design compacto, recarga rápida e sabores intensos para uma experiência satisfatória.",
-    "price": 135,
-    "quantity": 0,
-    "image": "elfbarew9k",
-    "flavors": [
-      ""
-    ]
-  },
 
   {
     "identifier": "elficeking-40000",
@@ -126,19 +180,7 @@
     "flavors": [
       ""
     ]
-  },
-  
-  {
-    "identifier": "cartuchoew-9000",
-    "name": "Cartucho EW 16K",
-    "description": "O Cartucho EW 16K da Elfbar oferece até 16.000 tragos com sabor intenso e refrescante, ideal para quem busca praticidade e qualidade em cada puff. DE UM UPGRADE DE 9K PARA 16K.",
-    "price": 80,
-    "quantity": 0,
-    "image": "cartucho16k",
-    "flavors": [
-      ""
-    ]
   }
-
+  
 
 ]
