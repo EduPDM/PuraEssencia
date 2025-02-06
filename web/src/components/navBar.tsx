@@ -48,7 +48,7 @@ const menus = [
       { href: 'pynepod-8000', label: 'Pyne Pod 8K' }
     ],
   }
- 
+
 ];
 
 export default function NavBar() {
