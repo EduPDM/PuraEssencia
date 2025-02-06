@@ -5,7 +5,7 @@
     "identifier": "elfbar-gh23000",
     "name": "Elfbar GH 23K",
     "description": "Gordinho favorito de vocês, o GH 23.000 possue um design incrivel com multifuncionalidades e sabores surreais para uma experiência incrível e duradoura.",
-    "price": 180,
+    "price": 135,
     "quantity": 1,
     "image": "GH23K",
     "flavors": [
@@ -83,7 +83,7 @@
     "identifier": "ignite-v50",
     "name": "Ignite V50",
     "description": "O queridinho das baladas com a melhor qualidade de sabores no mercado! O V50 mudou seu vizual para os tons escuros porém com a mesma exelência no desempenho e qualidade da marca.",
-    "price": 85,
+    "price": 75,
     "quantity": 1,
     "image": "ignitev50",
     "flavors": [
