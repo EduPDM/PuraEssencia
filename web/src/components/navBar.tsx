@@ -7,10 +7,17 @@ import { useState } from 'react';
 const menus = [
   {
     name: 'ignite',
-    label: 'Ignite',
+    label: 'IGNITE',
     items: [
       { href: 'ignite-25000', label: 'Ignite V250' },
       { href: 'ignite-15000', label: 'Ignite V150' },
+    ],
+  },
+  {
+    name: 'theblacksheep',
+    label: 'The Black Sheep',
+    items: [
+      { href: 'blacksheep', label: 'Dual Tank 20k' }
     ],
   },
   {
@@ -18,8 +25,10 @@ const menus = [
     label: 'Elfbar',
     items: [
       { href: 'elficeking-40000', label: 'Elfbar Ice King 40K' },
-      { href: 'elfbar-30000', label: 'Elfbar 30K' }
-     
+      { href: 'elfbar-30000', label: 'Elfbar 30K' },
+      { href: 'elfbar-bc20000', label: 'Elfbar BC20K' },
+      { href: 'elfbar-bc10000', label: 'Elfbar BC10K' },
+      { href: 'elfbar-rayad2', label: 'Elfbar RAYA 20K' }
     ],
   },
   {
@@ -33,6 +42,21 @@ const menus = [
       
     ],
   },
+
+  {
+    name: 'lifepod',
+    label: 'Life Pod',
+    items: [
+      { href: 'lifepod', label: 'Life Pod 10k' }
+    ],
+  },
+  {
+    name: 'moti',
+    label: 'Moti Pod',
+    items: [
+      { href: 'motipod', label: 'Moti Pod 6k' }
+    ],
+  },
   {
     name: 'rabbeats',
     label: 'RabBeats',
@@ -40,7 +64,6 @@ const menus = [
       { href: 'rabbeats-10000', label: 'RabBeats 10K' }
     ],
   },
- 
   {
     name: 'pynepod',
     label: 'Pyne Pod',
